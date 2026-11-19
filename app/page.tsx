@@ -181,7 +181,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/2">
                 <img
-                  src="/food.jpg?height=400&width=400"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/food.jpg?height=400&width=400`}
                   alt="Food donation illustration"
                   className="rounded-lg object-cover"
                   width={400}
