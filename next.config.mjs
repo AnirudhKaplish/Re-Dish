@@ -12,7 +12,13 @@ try {
 }
 
 /** @type {import('next').NextConfig} */
+const basePath = '/Re-Dish'
+
 const nextConfig = {
+  output: 'export',
+  basePath,
+  trailingSlash: true,
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
   eslint: {
     ignoreDuringBuilds: true,
   },

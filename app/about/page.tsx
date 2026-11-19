@@ -88,7 +88,7 @@ export default function AboutPage() {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/team.jpg?height=300&width=500"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/team.jpg?height=300&width=500`}
                 alt="Our mission"
                 className="rounded-lg shadow-lg object-cover w-full h-auto"
                 width={500}
@@ -102,7 +102,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex flex-col items-center">
                 <img
-                  src="/placeholder.svg?height=200&width=200"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=200`}
                   alt="Archita"
                   className="rounded-full shadow-lg mb-4 object-cover"
                   width={200}
@@ -123,7 +123,7 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-col items-center">
                 <img
-                  src="/placeholder.svg?height=200&width=200"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=200`}
                   alt="Anirudh"
                   className="rounded-full shadow-lg mb-4 object-cover"
                   width={200}
@@ -148,7 +148,7 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2">
               <img
-                src="/vit.jpg?height=300&width=500"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/vit.jpg?height=300&width=500`}
                 alt="Chennai office"
                 className="rounded-lg shadow-lg object-cover w-full h-auto"
                 width={500}
